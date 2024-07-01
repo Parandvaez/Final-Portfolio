@@ -235,6 +235,8 @@ footer {
   color: #25232b;
 }
 
+/* start of about page*/
+
 .container {
   margin-top: 100px;
   margin-bottom: 70px;
@@ -262,6 +264,35 @@ footer {
 .about-me {
   font-size: 16px;
   margin-left: 70px;
+}
+
+/*start of works page*/
+
+.card {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sc-link {
+  text-decoration: none;
+  color: #25232b;
+}
+
+.work1 {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
