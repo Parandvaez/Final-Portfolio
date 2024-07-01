@@ -337,6 +337,8 @@ footer {
   margin: 0 auto;
 }
 
+/*start of contact page*/
+
 @media (max-width: 768px) {
   h3 {
     font-size: 30px;
@@ -427,5 +429,10 @@ footer {
   .phobout,
   .about-img {
     margin: 30px;
+  }
+
+  .list-group-item,
+  .card-link {
+    font-size: 12px;
   }
 }
