@@ -271,10 +271,18 @@ footer {
 .card {
   display: block;
   margin: 0 auto;
+  border: 1px #deb3ad dotted !important;
+  width: 150%;
+}
+
+.card-body {
+  background-color: #f9f1f0;
 }
 
 .card-title {
   font-size: 18px;
+  text-align: center;
+  color: #deb3ad;
 }
 
 .card-text {
@@ -286,13 +294,47 @@ footer {
 .sc-link {
   text-decoration: none;
   color: #25232b;
+  cursor: pointer;
+}
+
+.sc-link:hover {
+  color: #deb3ad;
+  transition: ease-in-out 100ms;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #25232b;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-link:hover {
+  color: #deb3ad;
+  transition: ease-in-out 200ms;
+}
+
+.list-group-item {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .work1 {
   width: 90%;
   display: block;
   margin: 0 auto;
-  justify-content: center;
+  margin-top: 70px;
+}
+
+.work2 {
+  width: 120%;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
