@@ -489,3 +489,57 @@ footer {
     font-size: 12px;
   }
 }
+
+@media (min-width: 768px) {
+  .contact {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+  .phobout {
+    width: 90%;
+  }
+  .about-me {
+    font-size: 13px;
+    margin-left: 20px;
+    width: 85%;
+  }
+  .title {
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .work1 {
+    width: 110%;
+    margin-top: 100px;
+  }
+  .work2 {
+    width: 120%;
+    margin-top: 150px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .list-group-item,
+  .card-body {
+    font-size: 13px;
+  }
+  .contact-img {
+    margin-top: 50px;
+    width: 110%;
+  }
+  .icons-contact {
+    font-size: 30px;
+  }
+  .contact-links {
+    font-size: 14px;
+  }
+  .contact-para {
+    font-size: 13px;
+  }
+  .contact-title {
+    font-size: 24px;
+  }
+}
