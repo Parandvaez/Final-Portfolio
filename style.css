@@ -1,6 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .navbar {
   border-bottom: 3px double #25232b;
   background-color: #f9f1f0;
+  width: 100%;
 }
 
 .infos {
